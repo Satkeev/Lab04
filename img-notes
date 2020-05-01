@@ -1,0 +1,53 @@
+## Images
+<img>
+>To add an image into the page you need to use an <img> element. 
+This is an empty element (which means there is no closing tag).  
+It must carry the following two attributes:
+<src> This tells the browser where it can find the image file.  
+This will usually be a relative URL pointing to an image on your own site.  
+<alt> This provides a text description of the image which describes the image if you cannot see it.  
+title You can also use the title attribute with the <img> element to provide additional information about the image.   
+Most browsers will display the content of this attribute in a tootip when the user hovers over the image.  
+
+>You will also often see an <img> element use two other attributes that specify its size:  
+# height   
+>This specifies the height of the image in pixels.  
+# width  
+>This specifies the width of the image in pixels.    
+Images often take longer to load than the HTML code that makes up the rest of the page. It is,   
+therefore, a good idea to specify the size of the image so that the browser can render the rest   
+of the text on the page while leaving the right amount of space for the image that is still loading.  
+The size of images is increasingly being specified using CSS rather than HTML  
+
+<align 
+>The align attribute was commonly used to indicate how the other parts of a page should flow around an image.   
+It has been removed from HTML5 and new websites should use CSS to control the alignment  
+I have discussed it here because you are likely to come across it if you look at older code,   
+and because some visual editors still insert this attribute when you indicate how an image should be aligned.  
+The align attribute can take these horizontal values:  
+left This aligns the image to the left (allowing text to flow around its right-hand side).  
+right This aligns the image to the right (allowing text to flow around its left-hand side).  
+
+## Color
+
+>The color property allows you to specify the color of text inside an element.   
+You can specify any color in CSS in one of three ways:  
+rgb values These express colors in terms of how much red, green and blue are
+used to make it up. For example: rgb(100,100,90)  
+ hex Codes These are six-digit codes that represent the amount of red, green and blue in a color,   
+ preceded by a pound or hash # sign. For example: #ee3e80   
+Color names There are 147 predefined color names that are recognized by browsers.  
+For example: DarkCyan  
+We look at these three different ways of specifying colors on the next double-page spread.  
+CSS3 has also introduced another way to specify colors called HSLA  
+
+## Styling  
+>There are properties to control the choice of font, size, weight, style, and spacing.  
+Theris a limited choice of fonts that you can assume   most people will have installed.  
+If you want to use a wider range of typefaces there are  several options, but you need   
+to have the right license to use them.  
+You can control the space between lines of text,  individual letters, and words.   
+Text can also be aligned to the left, right, center, or justified. It can also be indented.  
+You can use pseudo-classes to change the style of an    
+element when a user hovers over or clicks on text, or when they have visited a link.  
+
